@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
+<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/anna-katharine-green/hand-and-ring</dc:identifier>
 		<dc:date>1900-01-01T00:00:00Z</dc:date>
 		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
+		<meta property="rdf:type">http://schema.org/Book</meta>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
-		<meta property="se:url.homepage" refines="#publisher">https://standardebooks.org/</meta>
+		<link href="https://standardebooks.org/" refines="#publisher" rel="schema:url"/>
 		<meta property="role" refines="#publisher" scheme="marc:relators">bkd</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">mdc</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">pbl</meta>
 		<dc:contributor id="type-designer">The League of Moveable Type</dc:contributor>
 		<meta property="file-as" refines="#type-designer">League of Moveable Type, The</meta>
-		<meta property="se:url.homepage" refines="#type-designer">https://www.theleagueofmoveabletype.com/</meta>
+		<link href="https://www.theleagueofmoveabletype.com/" refines="#type-designer" rel="schema:url"/>
 		<meta property="role" refines="#type-designer" scheme="marc:relators">tyd</meta>
 		<meta id="conformance-statement" property="dcterms:conformsTo">EPUB Accessibility 1.1 - WCAG 2.2 Level AA</meta>
 		<meta property="a11y:certifiedBy" refines="#conformance-statement">Standard Ebooks</meta>
@@ -38,30 +39,33 @@
 		<meta id="collection-1" property="belongs-to-collection">Mr. Gryce</meta>
 		<meta property="collection-type" refines="#collection-1">series</meta>
 		<meta property="group-position" refines="#collection-1">4</meta>
-		<dc:description id="description">
-			&lt;p&gt;When a conversation about how to commit the perfect murder is followed within minutes by a murder that mirrors the conversation, detectives are faced with confusion and misdirection by a diamond ring and the woman’s dying words “Hand! Ring!”.&lt;/p&gt;
-		</dc:description>
-		<meta id="long-description" property="se:long-description" refines="#description"><p>A conversation on the steps of a quiet courthouse in Sibley, New York turns to a chilling topic: how to commit the perfect, undetectable murder. A mysterious stranger declares that the secret lies in striking a blow in a busy thoroughfare using a weapon found on the spot, allowing the tracks of innocent passersby to naturally erase those of the killer.</p>
-			<p>Then minutes later, just yards away from where this conversation took place, a deaf widow is found brutally struck down in her dining room in the exact fashion the stranger had just described. The dying woman’s last words, "Hand! Ring! Ring! Hand!", only confuse and misdirect the young detectives until Detective Gryce arrives.</p>
-			<p>The author, <a href="https://standardebooks.org/ebooks/anna-katharine-green">Anna Katherine Green</a>, is known as the “mother of the detective novel”:her first novel predates <a href="https://standardebooks.org/ebooks/arthur-conan-doyle">Arthur Cannon Doyle’s</a> first <a href="https://standardebooks.org/collections/sherlock-holmes">Sherlock Holmes</a> novel by nearly a decade. Her detective stories have the classic elements of attention to clues, police procedure, and brilliant insight into human nature.</p>
-			<p>This is the fourth in the <a href="https://standardebooks.org/collections/mr-gryce">Detective Gryce</a> series, which totals thirteen novels. In this story, Detective Gryce does not come into the picture until near the end, where he plays a critical role identifying a key overlooked suspect.</p>
+		<meta property="schema:abstract">
+			<p>When a conversation about how to commit the perfect murder is followed within minutes by a murder that mirrors the conversation, detectives are faced with confusion and misdirection by a diamond ring and the woman’s dying words “Hand! Ring!”.</p>
 		</meta>
+		<dc:description>
+			&lt;p&gt;A conversation on the steps of a quiet courthouse in Sibley, New York turns to a chilling topic: how to commit the perfect, undetectable murder. A mysterious stranger declares that the secret lies in striking a blow in a busy thoroughfare using a weapon found on the spot, allowing the tracks of innocent passersby to naturally erase those of the killer.&lt;/p&gt;
+			&lt;p&gt;Then minutes later, just yards away from where this conversation took place, a deaf widow is found brutally struck down in her dining room in the exact fashion the stranger had just described. The dying woman’s last words, "Hand! Ring! Ring! Hand!", only confuse and misdirect the young detectives until Detective Gryce arrives.&lt;/p&gt;
+			&lt;p&gt;The author, &lt;a href="https://standardebooks.org/ebooks/anna-katharine-green"&gt;Anna Katherine Green&lt;/a&gt;, is known as the “mother of the detective novel”:her first novel predates &lt;a href="https://standardebooks.org/ebooks/arthur-conan-doyle"&gt;Arthur Cannon Doyle’s&lt;/a&gt; first &lt;a href="https://standardebooks.org/collections/sherlock-holmes"&gt;Sherlock Holmes&lt;/a&gt; novel by nearly a decade. Her detective stories have the classic elements of attention to clues, police procedure, and brilliant insight into human nature.&lt;/p&gt;
+			&lt;p&gt;This is the fourth in the &lt;a href="https://standardebooks.org/collections/mr-gryce"&gt;Detective Gryce&lt;/a&gt; series, which totals thirteen novels. In this story, Detective Gryce does not come into the picture until near the end, where he plays a critical role identifying a key overlooked suspect.&lt;/p&gt;
+		</dc:description>
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/31681</dc:source>
 		<dc:source>https://archive.org/details/handring00greeuoft</dc:source>
 		<meta property="schema:wordCount">WORD_COUNT</meta>
-		<meta property="se:reading-ease.flesch">READING_EASE</meta>
-		<meta property="se:url.vcs.github">https://github.com/standardebooks/anna-katharine-green_hand-and-ring</meta>
+		<meta property="schema:educationalLevel">READING_EASE</meta>
+		<meta id="vcs-repository" property="schema:workExample">schema:workExample</meta>
+		<meta property="rdf:type" refines="#vcs-repository">http://schema.org/SoftwareSourceCode</meta>
+		<link href="https://github.com/standardebooks/anna-katharine-green_hand-and-ring" refines="#vcs-repository" rel="schema:codeRepository"/>
 		<dc:creator id="author">Anna Katharine Green</dc:creator>
 		<meta property="file-as" refines="#author">Green, Anna Katharine</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Anna_Katharine_Green</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">https://id.loc.gov/authorities/names/n50046883.html</meta>
+		<link href="https://en.wikipedia.org/wiki/Anna_Katharine_Green" refines="#author" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n50046883.html" refines="#author" rel="schema:sameAs"/>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">ill</meta>
 		<dc:contributor id="artist">Joseph H. Hidley</dc:contributor>
 		<meta property="file-as" refines="#artist">Hidley, Joseph H.</meta>
 		<meta property="schema:alternateName" refines="#artist">Joseph Henry Hidley</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">https://id.loc.gov/authorities/names/nr92022610.html</meta>
+		<link href="https://id.loc.gov/authorities/names/nr92022610.html" refines="#artist" rel="schema:sameAs"/>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">Suzanne Shell</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">Shell, Suzanne</meta>
@@ -71,7 +75,7 @@
 		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
 		<dc:contributor id="transcriber-3">Distributed Proofreaders</dc:contributor>
 		<meta property="file-as" refines="#transcriber-3">Distributed Proofreaders</meta>
-		<meta property="se:url.homepage" refines="#transcriber-3">https://www.pgdp.net/</meta>
+		<link href="https://www.pgdp.net/" refines="#transcriber-3" rel="schema:url"/>
 		<meta property="role" refines="#transcriber-3" scheme="marc:relators">trc</meta>
 		<dc:contributor id="producer-1">Cecil New</dc:contributor>
 		<meta property="file-as" refines="#producer-1">New, Cecil</meta>
