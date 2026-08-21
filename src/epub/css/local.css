@@ -163,6 +163,10 @@ footer{
 	text-indent: 0;
 }
 
+b i{
+	font-variant: normal;
+}
+
 /* letters that are telegrams */
 .telegram{
 	font-variant: all-small-caps;
